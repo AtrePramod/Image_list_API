@@ -3,7 +3,6 @@ import SearchInput from './searchInput'
 import axios from 'axios'
 import ImageList from './ImageList'
 
-
 class App extends React.Component {
     state = { images: [] }
     onSearchSubmit = async (entry) => {
